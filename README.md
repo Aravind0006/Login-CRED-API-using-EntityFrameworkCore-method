@@ -1,9 +1,11 @@
 Quick Guide to Create an API Using ASP.NET Core Web API with Entity Framework Core method (Ef)
 
 Step 1 : Create a New ASP.NET Core Web API Project (Visual studio 22 -> ASP.NET Core Web API -> Project Name -> Next-> Project Created)
+
 Step 2 : Add the necessary NuGet packages (Tools - > NuGet packages Manager -> NuGet packages ->
  package mamange console -> Install -> dotnet add package Microsoft.EntityFrameworkCore.SqlServer and dotnet add package Microsoft.EntityFrameworkCore.Tools) or 
 manage nuget package for solution -> Browse -> Install - > Microsoft.EntityFrameworkCore.SqlServer & Microsoft.EntityFrameworkCore.Tools )
+
 Step 3: Create a folder DbContext and create a file DbContext.cs
 (using Microsoft.EntityFrameworkCore;
 
