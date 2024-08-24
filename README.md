@@ -4,7 +4,7 @@ Step 1 : Create a New ASP.NET Core Web API Project (Visual studio 22 -> ASP.NET 
 
 Step 2 : Add the necessary NuGet packages (Tools - > NuGet packages Manager -> NuGet packages ->
  package mamange console -> Install -> dotnet add package Microsoft.EntityFrameworkCore.SqlServer and dotnet add package Microsoft.EntityFrameworkCore.Tools) or 
-manage nuget package for solution -> Browse -> Install - >  
+manage nuget package for solution -> Browse -> Install - >   
 
 1.Microsoft.EntityFrameworkCore.SqlServer & 
 2.Microsoft.EntityFrameworkCore.Tools )
