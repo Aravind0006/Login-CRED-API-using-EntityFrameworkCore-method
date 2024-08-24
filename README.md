@@ -13,7 +13,7 @@ Step 3: Create a folder DbContext and create a file DbContext.cs
 
 using Full_stack_Reg___Login_CRED_API.Model;
 using Microsoft.EntityFrameworkCore;
-
+//use from here --
 public class MyDbContext : DbContext
 {
     public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
@@ -22,12 +22,13 @@ public class MyDbContext : DbContext
 
     public DbSet<User> Users { get; set; }
 }
-
+//to here --
 Step 4: Create a Model Using User.cs
 using System.ComponentModel.DataAnnotations;
 
 namespace Full_stack_Reg___Login_CRED_API.Model
 {
+//from here ---
     public class User
     {
         public int Id { get; set; }
@@ -57,6 +58,7 @@ namespace Full_stack_Reg___Login_CRED_API.Model
     }
 }
 
+// to here --
 
 Step 5 : Go to program.cs and paste this 
 (// Configure Entity Framework Core with SQL Server
