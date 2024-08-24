@@ -4,11 +4,13 @@ Step 1 : Create a New ASP.NET Core Web API Project (Visual studio 22 -> ASP.NET 
 
 Step 2 : Add the necessary NuGet packages (Tools - > NuGet packages Manager -> NuGet packages ->
  package mamange console -> Install -> dotnet add package Microsoft.EntityFrameworkCore.SqlServer and dotnet add package Microsoft.EntityFrameworkCore.Tools) or 
-manage nuget package for solution -> Browse -> Install - > Microsoft.EntityFrameworkCore.SqlServer & Microsoft.EntityFrameworkCore.Tools )
+manage nuget package for solution -> Browse -> Install - > 
+Microsoft.EntityFrameworkCore.SqlServer & 
+Microsoft.EntityFrameworkCore.Tools )
 
 Step 3: Create a folder DbContext and create a file DbContext.cs
-(using Microsoft.EntityFrameworkCore;
 
+(using Microsoft.EntityFrameworkCore;
 public class MyDbContext : DbContext
 {
     public MyDbContext(DbContextOptions<MyDbContext> options)
@@ -34,7 +36,7 @@ Step 5 : Go to appsettings.json and paste this
 "ConnectionStrings": {
     "SQLConnection": "Server=DESKTOP-AKRADV9;Database=TestDatabase;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=True;TrustServerCertificate=True;"
 }
-
+ 
 
 Step 6 : Go to controller folder -> Create a Controller -> ( Controller Folder -> Add -> Controller -> Select Api -> Empty -> Add -> Change Name -> Next to controller created ) and use like this
 
